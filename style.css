@@ -21,6 +21,11 @@ body{
     text-align: center;
     width: 35rem;
 }
-.container button {
+.container-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+    width: 35rem;
     padding: 12px;
 }
