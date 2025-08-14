@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 :root{
-    --bg-img:url("./img/bandeira-argentina.avif");
+    --bg-img:url("./img/imagem-fundo.jpg");
+
 }
 body{
     height: 100vh;
     display: grid;
     place-content: center;
     background-image:var(--bg-img);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .container{
     display: grid;
